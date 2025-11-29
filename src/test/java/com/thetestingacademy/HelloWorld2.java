@@ -2,7 +2,7 @@ package com.thetestingacademy;
 
 import io.restassured.RestAssured;
 
-public class HelloWorld {
+public class HelloWorld2 {
     public static void main(String[] args) {
         RestAssured
                 .given().baseUri("https://google.com").log().all()
